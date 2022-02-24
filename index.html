@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="index.js" type="module"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a class="header-logo" href="https://github.com/PesukarhuTG" target="_blank">
+        <svg class="icon icon-logo">
+          <use xlink:href="assets/svg/sprite.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <nav class="nav menu-body">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#skills" class="nav-link" data-i18="skills">Skills</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link" data-i18="portfolio">Portfolio</a></li>
+          <li class="nav-item"><a href="#video" class="nav-link" data-i18="video">Video</a></li>
+          <li class="nav-item"><a href="#price" class="nav-link" data-i18="price">Price</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link" data-i18="contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="lang-switch">
+        <a class="btn-lang btn-en" data-lang="en">en</a>
+        <span class="btn-slash">/</span>
+        <a class="btn-lang btn-ru" data-lang="ru">ru</a>
+      </div>
+      <div class="mode">
+        <svg class="icon icon-mode">
+          <use class="icon-mode-set" xlink:href="assets/svg/sprite.svg#icon-light-mode"></use>
+        </svg>
+      </div>
+      <div class="burger-menu">
+        <div class="burger-menu-lines">
+          <div class="burger-menu-line-1"></div>
+          <div class="burger-menu-line-2"></div>
+          <div class="burger-menu-line-3"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="section hero">
+        <h1 data-i18="hero-title">Alexa Rise</h1>
+        <p class="description-hero" data-i18="hero-text">Save sincere emotions, romantic feelings and happy moments of
+          life together with
+          professional photographer
+          Alexa Rise</p>
+        <button class="button btn-hero bubble-button" data-i18="hire" data-message="modal">Hire me</button>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="headling-wrapper">
+          <h2 class="section-title skills-title" data-i18="skills">Skills</h2>
+        </div>
+
+        <div class="skills-items">
+          <div class="skill-item">
+            <div class="skill-img img-elem01"></div>
+            <h4 class="skill-headling" data-i18="skill-title-1">Digital photography</h4>
+            <p class="skill-description" data-i18="skill-text-1">
+              High-quality photos in the studio and on the nature
+            </p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-img img-elem02"></div>
+            <h4 class="skill-headling" data-i18="skill-title-2">Video shooting</h4>
+            <p class="skill-description" data-i18="skill-text-2">
+              Capture your moments so that they always stay with you
+            </p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-img img-elem03"></div>
+            <h4 class="skill-headling" data-i18="skill-title-3">Retouch</h4>
+            <p class="skill-description" data-i18="skill-text-3">
+              I strive to make photography surpass reality
+            </p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-img img-elem04"></div>
+            <h4 class="skill-headling" data-i18="skill-title-4">Audio</h4>
+            <p class="skill-description" data-i18="skill-text-4">
+              Professional sounds recording for video, advertising, portfolio
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section portfolio">
+        <div class="headling-wrapper">
+          <h2 class="section-title portfolio-title" data-i18="portfolio">Portfolio</h2>
+        </div>
+        <div class="portfolio-list">
+          <button class="button portfolio-list-tab bubble-button" data-season="winter" data-i18="winter">Winter</button>
+          <button class="button portfolio-list-tab bubble-button" data-season="spring" data-i18="spring">Spring</button>
+          <button class="button portfolio-list-tab bubble-button" data-season="summer" data-i18="summer">Summer</button>
+          <button class="button portfolio-list-tab bubble-button portfolio-list-tab-active" data-season="autumn"
+            data-i18="autumn">Autumn</button>
+        </div>
+        <div class="portfolio-list-description">
+          <div class="portfolio-item-desc" data-season="autumn">
+            <img class="portfolio-item-img" src="assets/img/autumn/autumn-01.jpg" alt="autumn-photo" width="450"
+              height="560">
+            <img class="portfolio-item-img" src="assets/img/autumn/autumn-02.jpg" alt="autumn-photo" width="450"
+              height="560">
+            <img class="portfolio-item-img" src="assets/img/autumn/autumn-03.jpg" alt="autumn-photo" width="450"
+              height="560">
+            <img class="portfolio-item-img" src="assets/img/autumn/autumn-04.jpg" alt="autumn-photo" width="450"
+              height="560">
+            <img class="portfolio-item-img" src="assets/img/autumn/autumn-05.jpg" alt="autumn-photo" width="450"
+              height="560">
+            <img class="portfolio-item-img" src="assets/img/autumn/autumn-06.jpg" alt="autumn-photo" width="450"
+              height="560">
+          </div>
+        </div>
+      </section>
+
+      <section id="video" class="section video">
+        <div class="headling-wrapper">
+          <h2 class="section-title video-title" data-i18="video">Video</h2>
+        </div>
+        <div class="video-container">
+          <video class="video-player" src="assets/video/video.mp4" poster="assets/img/poster-video.jpg"></video>
+          <button class="video-btn">
+            <svg class="icon icon-play">
+              <use xlink:href="assets/svg/sprite.svg#icon-play"></use>
+            </svg>
+          </button>
+          <nav class="video-navigation">
+            <div class="nav-01">
+              <button class="video-button video-button__play">
+                <svg class="icon icon-video-play">
+                  <use class="icon-play-svg" xlink:href="assets/svg/sprite.svg#icon-video-play"></use>
+                </svg>
+              </button>
+              <button class="video-button video-button__stop">
+                <svg class="icon icon-video-stop">
+                  <use xlink:href="assets/svg/sprite.svg#icon-video-stop"></use>
+                </svg>
+              </button>
+              <p class="video-time video-time__passed">00:00</p>
+              <input type="range" class="video-progress" min="0" max="100" step="0.1" value="0">
+              <p class="video-time video-time__total">00:00</p>
+            </div>
+            <div class="nav-02">
+              <div class="small-nav-01">
+                <svg class="icon volume-down">
+                  <use class="icon-sound-svg" xlink:href="assets/svg/sprite.svg#sound-on"></use>
+                </svg>
+                <input type="range" class="video-volume" min="0" max="100" step="1" value="100">
+                <svg class="icon volume-up">
+                  <use xlink:href="assets/svg/sprite.svg#sound-loud"></use>
+                </svg>
+              </div>
+              <div class="small-nav-02">
+                <button class="video-button video-button__fullscreen">
+                  <svg class="icon icon-resize">
+                    <use xlink:href="assets/svg/sprite.svg#icon-resize"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <section id="price" class="section price">
+        <div class="headling-wrapper">
+          <h2 class="section-title price-title" data-i18="price">Price</h2>
+        </div>
+        <div class="prices">
+          <div class="price-item">
+            <h3 class="price-item-title" data-i18="price-title-1">Standard</h3>
+            <span class="price-amount">500 $</span>
+            <span class="price-desc">
+              <span class="price-desc-item" data-i18="price-description-1-span-1">One location</span>
+              <span class="price-desc-item" data-i18="price-description-1-span-2">120 photos in color</span>
+              <span class="price-desc-item" data-i18="price-description-1-span-3">12 photos in retouch</span>
+              <span class="price-desc-item" data-i18="price-description-1-span-4">Readiness 2-3 weeks</span>
+              <span class="price-desc-item" data-i18="price-description-1-span-5">Make up, visage</span>
+            </span>
+            <button class="button price-btn bubble-button" data-i18="order" data-message="modal">Order shooting</button>
+          </div>
+          <div class="price-item">
+            <h3 class="price-item-title" data-i18="price-title-2">Premium</h3>
+            <span class="price-amount">700 $</span>
+            <span class="price-desc">
+              <span class="price-desc-item" data-i18="price-description-2-span-1">One or two locations</span>
+              <span class="price-desc-item" data-i18="price-description-2-span-2">200 photos in color</span>
+              <span class="price-desc-item" data-i18="price-description-2-span-3">20 photos in retouch</span>
+              <span class="price-desc-item" data-i18="price-description-2-span-4">Readiness 1-2 weeks</span>
+              <span class="price-desc-item" data-i18="price-description-2-span-5">Make up, visage</span>
+            </span>
+            <button class="button price-btn bubble-button" data-i18="order" data-message="modal">Order shooting</button>
+          </div>
+          <div class="price-item">
+            <h3 class="price-item-title" data-i18="price-title-3">Gold</h3>
+            <span class="price-amount">1000 $</span>
+            <span class="price-desc">
+              <span class="price-desc-item" data-i18="price-description-3-span-1">Three locations or more</span>
+              <span class="price-desc-item" data-i18="price-description-3-span-2">300 photos in color</span>
+              <span class="price-desc-item" data-i18="price-description-3-span-3">50 photos in retouch</span>
+              <span class="price-desc-item" data-i18="price-description-3-span-4">Readiness 1 week</span>
+              <span class="price-desc-item" data-i18="price-description-3-span-5">Make up, visage, hairstyle</span>
+            </span>
+            <button class="button price-btn bubble-button" data-i18="order" data-message="modal">Order shooting</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="section contacts">
+        <div class="contacts-wrapper">
+          <h2 class="section-title contacts-title" data-i18="contact-me">Contact me</h2>
+          <form class="contacts-form" action="post">
+            <input class="input" data-i18="email" type="email" name="email" id="input-email" placeholder="E-mail">
+            <input class="input" data-i18="phone" type="tel" name="tel" id="input-tel" placeholder="Phone">
+            <textarea class="textarea" data-i18="message" name="message" id="input-message" cols="30" rows="10"
+              placeholder="Message"></textarea>
+          </form>
+          <button class="button btn-contacts bubble-button" data-i18="send-message" data-message="modal">Send
+            message</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-copyright">
+        <span class="footer-copyright-item">&copy;</span>
+        <span class="footer-copyright-item">2022</span>
+        <a class="footer-copyright-item footer-copyright-item-link" href="https://github.com/PesukarhuTG"
+          target="_blank">github</a>
+      </div>
+      <a class="footer-company footer-company-link" href="https://rs.school/js-stage0/" target="_blank">
+        Rolling Scopes School</a>
+      <ul class="footer-social">
+        <li>
+          <a href="#" class="footer-social-link">
+            <svg class="icon icon-social">
+              <use xlink:href="assets/svg/sprite.svg#social-insta"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer-social-link">
+            <svg class="icon icon-social">
+              <use xlink:href="assets/svg/sprite.svg#social-fb"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer-social-link">
+            <svg class="icon icon-social">
+              <use xlink:href="assets/svg/sprite.svg#social-tweet"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer-social-link">
+            <svg class="icon icon-social">
+              <use xlink:href="assets/svg/sprite.svg#social-pint"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <div id="modal" class="modal hidden">
+    <div class="overlay">
+      <div class="message hidden">
+        <div class="icon-close">✖</div>
+        <p class="message-text">
+          <span data-i18="message-greet">Hello, dear friend!</span><br>
+          <span data-i18="message-info">This page is under construction. Thank you for being patient!</span>
+        </p>
+        <p class="message-sign">
+          <span data-i18="message-author">Best regards, Alexa Rise</span> 🤍<br>
+          <span data-i18="message-support">Technical support:</span>
+          <a class="message-link" href="https://github.com/PesukarhuTG" target="_black">@pesukarhuTG</a> 💻
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="btn-up">
+    <div class="btn-up-figure">
+      <svg class="icon icon-arrow">
+        <use xlink:href="assets/svg/sprite.svg#arrow-up"></use>
+      </svg>
+    </div>
+  </div>
+</body>
+
+</html>
